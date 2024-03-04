@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  
+  }
+
+
+
+  /*Header*/
+
+.menu nav menu{
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 120px;
+  width: 60%;
+  margin-left: 20%;
+  border: 0px solid;
+}
+
+.menu li::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+
+.menu li:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.menu li {
+  list-style: none;
+  cursor: pointer;
+  transition: 0.5s all;
+  font-size: 20px;
+}
+
+.dom {
+  position: absolute;
+  left: 115%;
+  width: 8%;
+  border: 0px solid;
+}
+
+
+
+.menu li:hover {
+  transform: scale(1);
+}
+
+
+.menu img {
+  position: absolute;
+  height: 30px;
+  top: 3%;
+  left: 5%;
+}
+
+
+.kontakt {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(156, 146, 133);
+  height: 50px;
+  padding: 40px;
+  
+}
+
+.kontakt h1 {
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.kontakt h1:hover {
+  transform: scale(1.2);
+}
+
+
+/*Section*/
+
+.nadpis {
+  position: relative;
+  border: 0px solid;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nadpis h2 {
+  font-size: 100px;
+}
