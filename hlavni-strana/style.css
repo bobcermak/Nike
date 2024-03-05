@@ -47,6 +47,12 @@
   font-size: 20px;
 }
 
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+
 .dom {
   position: absolute;
   left: 115%;
@@ -103,4 +109,131 @@
 
 .nadpis h2 {
   font-size: 100px;
+}
+
+
+/*Muzi*/
+
+.muzi {
+  position: relative;
+  height: 1000px;
+  border: 0px solid;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.muzi h3 {
+  position: absolute;
+  left: 6%;
+  top: 2%;
+  font-size: 30px;
+}
+
+
+.par {
+  border: 0px solid;
+  height: 750px;
+  width : 29.3%;
+  margin-top: 3%;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.par:hover {
+  transform: scale(1.1);
+}
+
+.par1 img {
+  height: 550px;
+  width: 100%;
+}
+
+.par2 img {
+  height: 550px;
+  width: 100%;
+}
+
+.par3 img {
+  height: 550px;
+  width: 100%;
+}
+
+
+/*Par1*/
+
+.par1 {
+  position: relative;
+}
+
+#n1 {
+  position: absolute;
+  top: 78%;
+  font-size: 19px;
+}
+
+#p1 {
+  position: absolute;
+  top: 82%;
+  font-size: 19px;
+  color: rgb(133, 128, 128);
+}
+
+#c1 {
+  position: absolute;
+  top: 88%;
+  font-size: 22px;
+}
+
+
+/*Par2*/
+
+.par2 {
+  position: relative;
+}
+
+#n2 {
+  position: absolute;
+  top: 78%;
+  font-size: 19px;
+}
+
+#p2 {
+  position: absolute;
+  top: 82%;
+  font-size: 19px;
+  color: rgb(133, 128, 128);
+}
+
+#c2 {
+  position: absolute;
+  top: 88%;
+  font-size: 22px;
+}
+
+
+
+/*Par3*/
+
+.par3 {
+  position: relative;
+}
+
+#n3 {
+  position: absolute;
+  top: 78%;
+  font-size: 19px;
+}
+
+#p3 {
+  position: absolute;
+  top: 82%;
+  font-size: 19px;
+  color: rgb(133, 128, 128);
+}
+
+#c3 {
+  position: absolute;
+  top: 88%;
+  font-size: 22px;
 }
