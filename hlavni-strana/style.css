@@ -491,4 +491,64 @@ font-size: 22px;
 }
 
 
+/*Footer*/
 
+footer {
+  position: relative;
+  border: 2px solid;
+  margin-top: 12%;
+  background-color: black;
+  
+}
+
+.logo-nad {
+  position: relative;
+  border: 2px solid;
+  width: 30%;
+  height: 250px;
+  z-index: 3;
+  
+}
+
+
+.logo-nad img {
+  position: absolute;
+  height: 30px;
+  left: 45%;
+  top: 8.5%;
+  left: 21%;
+  border-radius: 80px;
+}
+
+.logo-nad h4 {
+  position: absolute;
+  font-size: 30px;
+  left: 8%;
+  top: 8%;
+  color: white;
+}
+
+#f-nike {
+  position: absolute;
+  color: gray;
+  font-size: 15px;
+  z-index: 100;
+  bottom: 5%;
+  left: 70%;
+  cursor: pointer;
+}
+
+#location {
+  position: absolute;
+  color: gray;
+  font-size: 16px;
+  z-index: 100;
+  bottom: 5%;
+  left: 40%;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+#location:hover {
+  color: white;
+}
