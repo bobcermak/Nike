@@ -53,12 +53,6 @@
 }
 
 
-.dom {
-  position: absolute;
-  left: 115%;
-  width: 8%;
-  border: 0px solid;
-}
 
 
 
@@ -72,8 +66,12 @@
   height: 30px;
   top: 4.5%;
   left: 5%;
+  transition: 0.5s all;
 }
 
+.menu img:hover {
+  color: gray;
+}
 
 .kontakt {
   position: relative;
