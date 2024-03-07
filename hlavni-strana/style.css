@@ -1,55 +1,55 @@
 *{
-    padding: 0px;
-    margin: 0px;
-    font-family: sans-serif;
-    box-sizing: border-box;
-  
-  }
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+}
 
 
 
-  /*Header*/
+/*Header*/
 
 .menu nav menu{
-  position: relative;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 120px;
-  width: 60%;
-  margin-left: 20%;
-  border: 0px solid;
+position: relative;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: 120px;
+width: 60%;
+margin-left: 20%;
+border: 0px solid;
 }
 
 .menu li::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: black;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+content: '';
+position: absolute;
+width: 100%;
+transform: scaleX(0);
+height: 2px;
+bottom: 0;
+left: 0;
+background-color: black;
+transform-origin: bottom right;
+transition: transform 0.25s ease-out;
 }
 
 
 .menu li:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+transform: scaleX(1);
+transform-origin: bottom left;
 }
 
 .menu li {
-  list-style: none;
-  cursor: pointer;
-  transition: 0.5s all;
-  font-size: 20px;
+list-style: none;
+cursor: pointer;
+transition: 0.5s all;
+font-size: 20px;
 }
 
 .menu li a {
-  text-decoration: none;
-  color: black;
+text-decoration: none;
+color: black;
 }
 
 
@@ -57,153 +57,153 @@
 
 
 .menu li:hover {
-  transform: scale(1);
+transform: scale(1);
 }
 
 
 .menu img {
-  position: absolute;
-  height: 30px;
-  top: 4.5%;
-  left: 5%;
-  transition: 0.5s all;
+position: absolute;
+height: 30px;
+top: 4.5%;
+left: 5%;
+transition: 0.5s all;
 }
 
 
 .kontakt {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(156, 146, 133);
-  height: 50px;
-  padding: 40px;
-  
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(156, 146, 133);
+height: 50px;
+padding: 40px;
+
 }
 
 .kontakt h1 {
-  transition: 0.5s all;
-  cursor: pointer;
+transition: 0.5s all;
+cursor: pointer;
 }
 
 .kontakt h1:hover {
-  transform: scale(1.2);
+transform: scale(1.2);
 }
 
 
 /*Section*/
 
 .nadpis {
-  position: relative;
-  border: 0px solid;
-  height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+position: relative;
+border: 0px solid;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .nadpis h2 {
-  font-size: 100px;
+font-size: 100px;
 }
 
 
 /*Muzi*/
 
 .muzi {
-  position: relative;
-  height: 1000px;
-  border: 0px solid;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+position: relative;
+height: 1000px;
+border: 0px solid;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
 }
 
 .muzi h3 {
-  position: absolute;
-  left: 6%;
-  top: 2%;
-  font-size: 30px;
+position: absolute;
+left: 6%;
+top: 2%;
+font-size: 30px;
 }
 
 
 .par {
-  border: 0px solid;
-  height: 750px;
-  width : 29.3%;
-  margin-top: 3%;
-  cursor: pointer;
-  transition: 0.5s all;
+border: 0px solid;
+height: 750px;
+width : 29.3%;
+margin-top: 3%;
+cursor: pointer;
+transition: 0.5s all;
 }
 
 .par:hover {
-  transform: scale(1.1);
+transform: scale(1.1);
 }
 
 .par1 img {
-  height: 550px;
-  width: 100%;
+height: 550px;
+width: 100%;
 }
 
 .par2 img {
-  height: 550px;
-  width: 100%;
+height: 550px;
+width: 100%;
 }
 
 .par3 img {
-  height: 550px;
-  width: 100%;
+height: 550px;
+width: 100%;
 }
 
 
 /*Par1*/
 
 .par1 {
-  position: relative;
+position: relative;
 }
 
 #n1 {
-  position: absolute;
-  top: 78%;
-  font-size: 19px;
+position: absolute;
+top: 78%;
+font-size: 19px;
 }
 
 #p1 {
-  position: absolute;
-  top: 82%;
-  font-size: 19px;
-  color: rgb(133, 128, 128);
+position: absolute;
+top: 82%;
+font-size: 19px;
+color: rgb(133, 128, 128);
 }
 
 #c1 {
-  position: absolute;
-  top: 88%;
-  font-size: 22px;
+position: absolute;
+top: 88%;
+font-size: 22px;
 }
 
 
 /*Par2*/
 
 .par2 {
-  position: relative;
+position: relative;
 }
 
 #n2 {
-  position: absolute;
-  top: 78%;
-  font-size: 19px;
+position: absolute;
+top: 78%;
+font-size: 19px;
 }
 
 #p2 {
-  position: absolute;
-  top: 82%;
-  font-size: 19px;
-  color: rgb(133, 128, 128);
+position: absolute;
+top: 82%;
+font-size: 19px;
+color: rgb(133, 128, 128);
 }
 
 #c2 {
-  position: absolute;
-  top: 88%;
-  font-size: 22px;
+position: absolute;
+top: 88%;
+font-size: 22px;
 }
 
 
@@ -211,26 +211,26 @@
 /*Par3*/
 
 .par3 {
-  position: relative;
+position: relative;
 }
 
 #n3 {
-  position: absolute;
-  top: 78%;
-  font-size: 19px;
+position: absolute;
+top: 78%;
+font-size: 19px;
 }
 
 #p3 {
-  position: absolute;
-  top: 82%;
-  font-size: 19px;
-  color: rgb(133, 128, 128);
+position: absolute;
+top: 82%;
+font-size: 19px;
+color: rgb(133, 128, 128);
 }
 
 #c3 {
-  position: absolute;
-  top: 88%;
-  font-size: 22px;
+position: absolute;
+top: 88%;
+font-size: 22px;
 }
 
 
@@ -239,100 +239,100 @@
 
 
 .zeny {
-  position: relative;
-  height: 1000px;
-  border: 0px solid;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+position: relative;
+height: 1000px;
+border: 0px solid;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
 }
 
 .zeny h3 {
-  position: absolute;
-  left: 6%;
-  top: 2%;
-  font-size: 30px;
+position: absolute;
+left: 6%;
+top: 2%;
+font-size: 30px;
 }
 
 
 .par {
-  border: 0px solid;
-  height: 750px;
-  width : 29.3%;
-  margin-top: 3%;
-  cursor: pointer;
-  transition: 0.5s all;
+border: 0px solid;
+height: 750px;
+width : 29.3%;
+margin-top: 3%;
+cursor: pointer;
+transition: 0.5s all;
 }
 
 .par:hover {
-  transform: scale(1.1);
+transform: scale(1.1);
 }
 
 .par4 img {
-  height: 550px;
-  width: 100%;
+height: 550px;
+width: 100%;
 }
 
 .par5 img {
-  height: 550px;
-  width: 100%;
+height: 550px;
+width: 100%;
 }
 
 .par6 img {
-  height: 550px;
-  width: 100%;
+height: 550px;
+width: 100%;
 }
 
 
 /*Par4*/
 
 .par4 {
-  position: relative;
+position: relative;
 }
 
 #n4 {
-  position: absolute;
-  top: 78%;
-  font-size: 19px;
+position: absolute;
+top: 78%;
+font-size: 19px;
 }
 
 #p4 {
-  position: absolute;
-  top: 82%;
-  font-size: 19px;
-  color: rgb(133, 128, 128);
+position: absolute;
+top: 82%;
+font-size: 19px;
+color: rgb(133, 128, 128);
 }
 
 #c4 {
-  position: absolute;
-  top: 88%;
-  font-size: 22px;
+position: absolute;
+top: 88%;
+font-size: 22px;
 }
 
 
-/*Par2*/
+/*Par5*/
 
 .par5 {
-  position: relative;
+position: relative;
 }
 
 #n5 {
-  position: absolute;
-  top: 78%;
-  font-size: 19px;
+position: absolute;
+top: 78%;
+font-size: 19px;
 }
 
 #p5 {
-  position: absolute;
-  top: 82%;
-  font-size: 19px;
-  color: rgb(133, 128, 128);
+position: absolute;
+top: 82%;
+font-size: 19px;
+color: rgb(133, 128, 128);
 }
 
 #c5 {
-  position: absolute;
-  top: 88%;
-  font-size: 22px;
+position: absolute;
+top: 88%;
+font-size: 22px;
 }
 
 
@@ -340,26 +340,154 @@
 /*Par6*/
 
 .par6 {
-  position: relative;
+position: relative;
 }
 
 #n6 {
-  position: absolute;
-  top: 78%;
-  font-size: 19px;
+position: absolute;
+top: 78%;
+font-size: 19px;
 }
 
 #p6 {
-  position: absolute;
-  top: 82%;
-  font-size: 19px;
-  color: rgb(133, 128, 128);
+position: absolute;
+top: 82%;
+font-size: 19px;
+color: rgb(133, 128, 128);
 }
 
 #c6 {
-  position: absolute;
-  top: 88%;
-  font-size: 22px;
+position: absolute;
+top: 88%;
+font-size: 22px;
+}
+
+
+/*Děti*/
+
+
+.deti {
+position: relative;
+height: 1000px;
+border: 0px solid;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.deti h3 {
+position: absolute;
+left: 6%;
+top: 2%;
+font-size: 30px;
+}
+
+
+.par {
+border: 0px solid;
+height: 750px;
+width : 29.3%;
+margin-top: 3%;
+cursor: pointer;
+transition: 0.5s all;
+}
+
+.par:hover {
+transform: scale(1.1);
+}
+
+.par7 img {
+height: 550px;
+width: 100%;
+}
+
+.par8 img {
+height: 550px;
+width: 100%;
+}
+
+.par9 img {
+height: 550px;
+width: 100%;
+}
+
+
+/*Par7*/
+
+.par7 {
+position: relative;
+}
+
+#n7 {
+position: absolute;
+top: 78%;
+font-size: 19px;
+}
+
+#p7 {
+position: absolute;
+top: 82%;
+font-size: 19px;
+color: rgb(133, 128, 128);
+}
+
+#c7 {
+position: absolute;
+top: 88%;
+font-size: 22px;
+}
+
+
+/*Par8*/
+
+.par8 {
+position: relative;
+}
+
+#n8 {
+position: absolute;
+top: 78%;
+font-size: 19px;
+}
+
+#p8 {
+position: absolute;
+top: 82%;
+font-size: 19px;
+color: rgb(133, 128, 128);
+}
+
+#c8 {
+position: absolute;
+top: 88%;
+font-size: 22px;
+}
+
+
+
+/*Par9*/
+
+.par9 {
+position: relative;
+}
+
+#n9 {
+position: absolute;
+top: 78%;
+font-size: 19px;
+}
+
+#p9 {
+position: absolute;
+top: 82%;
+font-size: 19px;
+color: rgb(133, 128, 128);
+}
+
+#c9 {
+position: absolute;
+top: 88%;
+font-size: 22px;
 }
 
 
