@@ -1,0 +1,177 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  
+  }
+  
+  
+  
+  /*Header*/
+  
+  .menu nav menu{
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 120px;
+  width: 60%;
+  margin-left: 20%;
+  border: 0px solid;
+  }
+  
+  .menu li::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  }
+  
+  
+  .menu li:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  }
+  
+  .menu li {
+  list-style: none;
+  cursor: pointer;
+  transition: 0.5s all;
+  font-size: 20px;
+  }
+  
+  .menu li a {
+  text-decoration: none;
+  color: black;
+  }
+  
+  
+  
+  
+  
+  .menu li:hover {
+  transform: scale(1);
+  }
+  
+  
+  .menu img {
+  position: absolute;
+  height: 30px;
+  top: 4.5%;
+  left: 5%;
+  transition: 0.5s all;
+  }
+
+
+  /*Main*/
+
+  .vypln {
+    position: relative;
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid;
+    height: 400px;
+    width: 85%;
+  }
+  
+  
+  input {
+    border: none;
+    background-color: #E1CEB7;
+    color: #7A746D;
+    font-size: 18px;
+    padding-left: 90px;
+    box-shadow: 18px 25px 17px -4px #7A746D;
+    
+    
+    
+  }
+  textarea {
+    border: none;
+    font-size: 16px;
+    padding-left: 60px;
+    padding-top: 30px;
+    background-color: #E1CEB7;
+    box-shadow: 18px 25px 17px -4px #7A746D;
+  }
+  
+  
+  #name {
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    width: 40%;
+    height: 60px;
+  }
+  
+  #name2 {
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    width: 40%;
+    height: 60px;
+  }
+  
+  #email {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    width: 84%;
+    height: 60px;
+  }
+  
+  #message {
+    position: absolute;
+    top: 65%;
+    left: 8%;
+    width: 84%;
+    height: 160px;
+  }
+  
+  .vypln button {
+    position: absolute;
+    font-size: 16px;
+    border: none;
+    top: 120%;
+    left: 40%;
+    width: 145px;
+    height: 60px;
+    background-color: #7A746D;
+    color: white;
+    padding-top: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+  }
+  
+  .vypln button:hover {
+    background-color: #5c5853;
+  }
+  
+  .vypln ::placeholder {
+    position: absolute;
+    color: #5c5853;
+    font-size: 18px;
+    left: 120px;
+    top: 20px;
+  }
+  
+  .emaili ::placeholder {
+    position: absolute;
+    left: 300px;
+  }
+  
+  
+  .texti ::placeholder {
+    position: absolute;
+    left: 295px;
+    top: 45%;
+  }

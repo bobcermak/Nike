@@ -84,6 +84,12 @@ padding: 40px;
 .kontakt h1 {
 transition: 0.5s all;
 cursor: pointer;
+color: black;
+
+}
+
+.kontakt a {
+  text-decoration: none;
 }
 
 .kontakt h1:hover {
