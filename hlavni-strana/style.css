@@ -544,6 +544,20 @@ footer {
   cursor: pointer;
 }
 
+#kont {
+  position: absolute;
+  left: 63%;
+  top: 35%;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+#kont:hover {
+  transform: scale(1.2);
+}
+
+
+
 #location {
   position: absolute;
   color: gray;
@@ -580,5 +594,5 @@ footer {
 
 
 .soc a:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }

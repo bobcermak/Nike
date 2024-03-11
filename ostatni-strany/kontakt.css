@@ -182,13 +182,113 @@
   
   .emaili ::placeholder {
     position: absolute;
-    left: 300px;
+    left: 47%;
   }
 
   
   
   .texti ::placeholder {
     position: absolute;
-    left: 295px;
+    left: 46%;
     top: 45%;
+  }
+
+  /*Footer*/
+
+  footer {
+    position: relative;
+    border: 2px solid;
+    margin-top: 12%;
+    background-color: black;
+    
+  }
+  
+  .logo-nad {
+    position: relative;
+    border: 2px solid;
+    width: 70%;
+    height: 250px;
+    z-index: 3;
+    
+  }
+  
+  
+  .logo-nad img {
+    position: absolute;
+    height: 30px;
+    left: 45%;
+    top: 8.5%;
+    left: 13.5%;
+    border-radius: 80px;
+  }
+  
+  .logo-nad h4 {
+    position: absolute;
+    font-size: 30px;
+    left: 8%;
+    top: 8%;
+    color: white;
+  }
+  
+  #f-nike {
+    position: absolute;
+    color: gray;
+    font-size: 15px;
+    z-index: 100;
+    bottom: 5%;
+    left: 73.5%;
+    cursor: pointer;
+  }
+  
+  #kont {
+    position: absolute;
+    left: 63%;
+    top: 35%;
+    transition: 0.5s all;
+    cursor: pointer;
+  }
+  
+  #kont:hover {
+    transform: scale(1.2);
+  }
+  
+  
+  
+  #location {
+    position: absolute;
+    color: gray;
+    font-size: 16px;
+    z-index: 100;
+    bottom: 5%;
+    left: 61.5%;
+    transition: 0.5s all;
+    cursor: pointer;
+  }
+  
+  #location:hover {
+    color: white;
+  }
+  
+  .soc {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 85%;
+    width: 10%;
+    top: 0%;
+    height: 100px;
+    border: 0px solid wheat;
+    top: 8%;
+  }
+  
+  .soc a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    transition: 0.5s all;
+  }
+  
+  
+  .soc a:hover {
+    transform: scale(1.1);
   }
