@@ -1,2 +1,2 @@
 # Nike
-# Autor Bohuslav Čermák
+# Autor: Bohuslav Čermák
