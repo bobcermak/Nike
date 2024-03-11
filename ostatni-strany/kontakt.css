@@ -87,8 +87,8 @@
     height: 680px;
     width: 50%;
     box-shadow: -1px 5px 22px 13px rgba(162,149,149,0.66);
--webkit-box-shadow: -1px 5px 22px 13px rgba(162,149,149,0.66);
--moz-box-shadow: -1px 5px 22px 13px rgba(162,149,149,0.66);
+  -webkit-box-shadow: -1px 5px 22px 13px rgba(162,149,149,0.66);
+  -moz-box-shadow: -1px 5px 22px 13px rgba(162,149,149,0.66);
   }
 
   .vypln  h1 {
@@ -158,7 +158,7 @@
     font-size: 16px;
     border: none;
     top: 85%;
-    left: 41.2%;
+    left: 42%;
     width: 145px;
     height: 60px;
     background-color: black;
